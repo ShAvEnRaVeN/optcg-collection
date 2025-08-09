@@ -5,16 +5,14 @@
       <h3 class="ms-auto p-3">Maybe a search feature</h3>
     </div>
     <SetButtons />
-    <div class="d-flex">
-      <CardPreview />
-      <CardList />
-    </div>
+
+    <CardList />
+
   </div>
 </template>
 
 <script setup>
 import SetButtons from './components/SetButtons.vue'
-import CardPreview from './components/CardPreview.vue'
 import CardList from './components/CardList.vue'
 
 

@@ -16,6 +16,7 @@
                 </div>
                 <h5 class="card-title text-center">Card name</h5>
                 <p class="card-text">Rarity: <span id="rarity">-</span></p>
+                <button type="button" @click="selectedCard = null">Back</button>
 
             </div>
         </div>
@@ -23,4 +24,7 @@
 </template>
 
 <script setup>
+import { getSelectedCard } from '../composables/selectedCard';
+const selectedCard = getSelectedCard()
+
 </script>
